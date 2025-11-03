@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit@3';
 import './fox-photo-card.js';
 import { SocialPostRepository } from './domain/repositories/SocialPostRepository.js';
 import { LocalStorageService } from './domain/services/LocalStorageService.js';
@@ -435,3 +435,4 @@ export class FoxGallery extends LitElement {
 }
 
 customElements.define('fox-gallery', FoxGallery);
+
