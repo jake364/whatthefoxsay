@@ -1,4 +1,4 @@
-import { LitElement, html, css } from 'lit';
+import { LitElement, html, css } from 'https://cdn.skypack.dev/lit@3';
 
 /**
  * `fox-photo-card`
