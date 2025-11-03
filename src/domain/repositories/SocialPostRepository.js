@@ -1,4 +1,4 @@
-import { SocialPost } from './SocialPost.js';
+import { SocialPost } from '../entities/SocialPost.js';
 
 /**
  * SocialPostRepository - Handles data access for social posts
@@ -6,7 +6,7 @@ import { SocialPost } from './SocialPost.js';
  */
 export class SocialPostRepository {
     constructor() {
-        this.dataSource = './social-posts.json';
+        this.dataSource = '../../../data/social-posts.json';
         this.cache = null;
         this.cacheTimestamp = null;
         this.cacheExpiry = 5 * 60 * 1000; // 5 minutes
