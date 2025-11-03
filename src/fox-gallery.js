@@ -1,8 +1,8 @@
 import { LitElement, html, css } from 'lit';
 import './fox-photo-card.js';
-import { SocialPostRepository } from './SocialPostRepository.js';
-import { LocalStorageService } from './LocalStorageService.js';
-import { SocialInteractionService } from './SocialInteractionService.js';
+import { SocialPostRepository } from './domain/repositories/SocialPostRepository.js';
+import { LocalStorageService } from './domain/services/LocalStorageService.js';
+import { SocialInteractionService } from './domain/services/SocialInteractionService.js';
 
 /**
  * `fox-gallery`
